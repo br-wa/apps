@@ -47,10 +47,10 @@ case $ALL in
 		cat main.tex | pipemk.sh $1 2
 		;;
 	2)
-		sed "s/AB/$DAY/" template.tex | pipemk.sh $1 1
+		sed "s/AB/$DAY/g" template.tex | pipemk.sh $1 1
 		;;
 	3)
-		sed "s/AB/$DAY/" template.tex | pipemk.sh $1 2
+		sed "s/AB/$DAY/g" template.tex | pipemk.sh $1 2
 		;;
 	*)
 		exit 1
