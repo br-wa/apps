@@ -2,7 +2,7 @@
 
 # Usage: zps [class #]
 # goes to that class's direction and pset subdirectory
-# NOTE: To use, add 'alias zps=". zps.sh" to your bash_profile and add this script to PATH
+# NOTE: To use, add 'alias zps=". zps.sh"' to your bash_profile and add this script to PATH
 
 NEXTDIR="psets"
 source /home/brandon/apps/other/z/z.sh
